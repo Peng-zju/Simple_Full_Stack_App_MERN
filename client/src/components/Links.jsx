@@ -18,18 +18,18 @@ class Links extends Component{
     render(){
         return(
             <>
-                <Link to="/" className = "navbar-brand text-info">
-                    My first app
+                <Link to="/movies/list" className = "navbar-brand text-info">
+                    Curtis Movie Theater
                 </Link>
                 <Collapse>
                     <List>
                         <Item>
-                            <Link to='/' className='nav-link text-secondary'>
+                            <Link to='/movies/list' className='nav-link text-secondary'>
                                 Movies
                             </Link>
                         </Item>
                         <Item>
-                            <Link to='/create' className='nav-link text-secondary' >
+                            <Link to='/movies/create' className='nav-link text-secondary' >
                                 Create Movie
                             </Link>
                         </Item>
